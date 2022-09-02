@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+table {
+	margin: 0px auto;
+	
+	border: 1px solid #121212;
+	border-collapse: collapse; 
+}
+
+th, td {
+	border: 1px solid #121212;
+	padding: 10px;
+	
+	text-align: center;
+}
+
+input {
+	width: 100%;
+}

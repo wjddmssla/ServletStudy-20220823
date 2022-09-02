@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	
+	font-size: 14px;
+}
+
+html, body {
+	height: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #141414;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #141414;
+	height: 20px;
+	text-align: center;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	margin: 0px auto;
+	
+	width: 1300px;
+}
+
+header, main {
+	display: flex;
+	justify-content: center;
+	
+	width: 100%;
+}
+
+main {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.input-items {
+	margin: 10px 0px;
+}
+
+.visible {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

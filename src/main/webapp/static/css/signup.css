@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+table {
+	margin: 100px auto;
+	border: 1px solid #121212;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #121212;
+	padding: 10px;
+	text-align: center;
+}
